@@ -1,16 +1,11 @@
-# id_ac_bsi_4b_12210426_jemput_sampah
+TIM :
 
-A new Flutter project.
+KETUA : YUSUF ARISTOKRAT (12210426)
 
-## Getting Started
+ANGGIOTA TIM :
+- RIZKY RAMADHAN (NIM)
+- MUHAMMAD RYANDRA (NIM)
 
-This project is a starting point for a Flutter application.
+NAMA PROJECT : JEMPUT SAMPAH
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+LINK LRS : https://drive.google.com/drive/folders/11YAeoqJvwNOGWdOrRlS2NSjbu_xj3nB7?usp=share_link
