@@ -1,23 +1,25 @@
 import 'package:flutter/material.dart';
 
 class SettingPage extends StatelessWidget {
+  const SettingPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Settings'),
+        title: const Text('Settings'),
       ),
       body: SingleChildScrollView(
         child: Container(
           width: 390,
           height: 844,
-          color: Color.fromRGBO(255, 255, 255, 1),
+          color: const Color.fromRGBO(255, 255, 255, 1),
           child: Column(
             children: <Widget>[
               Container(
                 width: 390,
                 height: 89,
-                margin: EdgeInsets.only(top: 20),
+                margin: const EdgeInsets.only(top: 20),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
@@ -27,9 +29,9 @@ class SettingPage extends StatelessWidget {
                       blurRadius: 15,
                     ),
                   ],
-                  color: Color.fromRGBO(70, 121, 255, 1),
+                  color: const Color.fromRGBO(70, 121, 255, 1),
                 ),
-                child: Center(
+                child: const Center(
                   child: Text(
                     'Settings',
                     style: TextStyle(
@@ -43,27 +45,27 @@ class SettingPage extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               SettingItem(
                 title: 'Settings #1',
                 description: 'description',
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               SettingItem(
                 title: 'Settings #2',
                 description: 'description',
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               SettingItem(
                 title: 'Settings #3',
                 description: 'description',
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               SettingItem(
                 title: 'Settings #4',
                 description: 'description',
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               SettingItem(
                 title: 'Settings #5',
                 description: 'description',
@@ -95,10 +97,10 @@ class SettingItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Padding(
-            padding: EdgeInsets.only(left: 15, top: 10),
+            padding: const EdgeInsets.only(left: 15, top: 10),
             child: Text(
               title,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Color.fromRGBO(69, 69, 69, 1),
                 fontFamily: 'Gudea',
                 fontSize: 20,
@@ -109,10 +111,10 @@ class SettingItem extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 15, top: 5),
+            padding: const EdgeInsets.only(left: 15, top: 5),
             child: Text(
               description,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Color.fromRGBO(69, 69, 69, 1),
                 fontFamily: 'Gudea',
                 fontSize: 14,
