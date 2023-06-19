@@ -42,6 +42,11 @@ class ProfilePage extends StatelessWidget {
                 color: Colors.grey,
               ),
             ),
+               Image.asset(
+                        "assets/user.png",
+                        width: 100,
+                        height: 100,
+                      ),
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {

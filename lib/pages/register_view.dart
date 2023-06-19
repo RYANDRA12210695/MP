@@ -37,6 +37,7 @@ class RegistrationPage extends StatelessWidget {
               ),
               obscureText: true,
             ),
+            
             const SizedBox(height: 24.0),
             ElevatedButton(
               child: const Text('Register'),
