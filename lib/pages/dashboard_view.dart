@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:id_ac_bsi_4b_12210426_jemput_sampah/pages/home_view.dart';
 
 class DashboardView extends StatelessWidget {
   const DashboardView({super.key});
@@ -6,6 +7,9 @@ class DashboardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: BottomNavigationBar(
+        items: [BottomNavigationBarItem(icon: HomePage() ),]
+        ),
       body: Stack(
         children: [
           _BackgroundDashboard(),
